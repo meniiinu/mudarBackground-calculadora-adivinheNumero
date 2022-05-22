@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caique Dev.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="container-topo">
+            <nav>
+                <div id="nav-topo">
+                    <img src="imgs/programming.png" alt="" width="80">
+                    <ul>
+                        <li>
+                            <a href="#container-topo">Início</a>
+                            <a href="#sobre">Sobre</a>
+                            <a href="#sociais">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="model-box">
+            <div id="contentsCor">
+                <h2>Trocar background</h2>
+                <p>Experimente clicar no botão abaixo para estar trocando a cor desta caixa.</p>
+                <input type="button" value="Mudar" id="changeColor">
+            </div>
+        </div>
+        <div id="model-boxCalc">
+            <div id="contentsCalc">
+                <h2>Calculadora</h2>
+                <p>Digite os números e escolha a operação para realizar um cálculo.</p>
+                <input type="number" name="num1" id="txtnum1" placeholder="Número 1">
+                <input type="number" name="num2" id="txtnum2" placeholder="Número 2">
+                <select name="oper" id="oper">
+                    <option value="adicao">Adição</option>
+                    <option value="subtracao">Subtração</option>
+                    <option value="multiplicacao">Multiplicação</option>
+                    <option value="divisao">Divisão</option>
+                </select>
+                <input type="button" value="Calcular" id="calcular">
+            </div>
+        </div>
+        <div id="model-boxChute">
+            <div id="contentsNum">
+                <h2>Adivinhe o número</h2>
+                <p>Experimente ir chutando números entre 0 e 10 até que acerte.</p>
+                <input type="number" name="chuteNum" id="chuteNum">
+                <input type="button" value="Chute" id="btnChute">
+            </div>
+        </div>
+        <section>
+            <div id="sobre">
+                <h2>Por que desse projeto?</h2>
+                <p class="negrito">
+                    Criei este mini-projeto afim de testar meus conhecimentos e o que eu sei sobre HTML, CSS e JavaScript. Com este projeto eu aprendi muito e também revi alguns conceitos que eu estava errando e outros que eu estava acertando eu tentei melhorar.
+                </p> <br>
+                <p class="espaçamento">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo fuga magni. Error, veritatis aut. Est itaque iure aperiam magni sequi, dolore eaque. Rem perferendis sint laborum reprehenderit magnam fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto animi est vel magnam iste reiciendis similique illum vero non eaque, quod aliquam, voluptate ullam, molestiae ratione itaque sunt blanditiis ipsa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum nam quis enim assumenda sunt quisquam, fuga quidem cumque sed! Culpa fugiat aliquam aliquid nihil rerum animi in? Officia, enim iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero omnis error quaerat libero fugiat dolorem minus? Aliquid, explicabo atque temporibus pariatur cum aperiam quo nihil molestias officia quos, amet animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus fuga vero praesentium optio nihil? Commodi debitis voluptatem repellat accusantium maxime nemo et iusto rem. Ratione iusto labore quos earum maiores? 
+                </p>
+            </div>
+        </section>
+        <footer>
+            <div id="rodape-contato">
+                <p>&copy; Caique Dev, 2022</p>
+                <div id="sociais">
+                    <a href="https://www.twitter.com/caiquexzz" target="_blank"><img src="imgs/twitter.png" alt=""></a>
+                    <a href="https://www.instagram.com/caiqueee.silva" target="_blank"><img src="imgs/instagram.png" alt=""></a>
+                    <a href="https://github.com/meniiinu" target="_blank"><img src="imgs/github.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <div id="back-to-top">
+        <a href="#"></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     background: #0b0c0f;
+     cursor: default;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Cabecalho */
+#container-topo{
+    padding-top: 50px;
+}
+header{
+    background: #010513;
+    height: 150px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
+}
+#nav-topo{
+    width: 720px;
+    margin: auto;
+}
+#nav-topo img{
+    float: left;
+    position: relative;
+    bottom: 30px;
+    transform: rotate(1deg);
+}
+nav{
+    font-weight: bolder;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+}
+nav a{
+    padding: 30px;
+    padding-bottom: 20px;
+}
+nav a:hover{
+    border-bottom: 1px solid #991e1e;
+    border-right: 1px;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Caixas */
+.model-box{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin-left: 85px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+    background: #100f14;
+}
+#model-boxCalc{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 85px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+    background: #100f14;
+    position: relative;
+    top: 95px;
+}
+#model-boxChute{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 85px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+    background: #100f14;
+    position: relative;
+    top: 53px;
+}
+#contentsCor h2{
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+}
+#contentsCor p{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+#contentsCor input[type=button]{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: #000;
+    transition: .5s;
+}
+#contentsCor input[type=button]:hover{
+    background: #fff;
+    color: #000;
+}
+#contentsCalc h2{
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+}
+#contentsCalc p{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+#contentsCalc input[type=button]{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: #000;
+    transition: .5s;
+}
+#contentsCalc input[type=button]:hover{
+    background: #fff;
+    color: #000;
+}
+#contentsNum h2{
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+}
+#contentsNum p{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+#contentsNum input[type=button]{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: #000;
+    transition: .5s;
+}
+#contentsNum input[type=button]:hover{
+    background: #fff;
+        color: #000;
+}
+#txtnum1, #txtnum2{
+    margin: 10px 0 0 30px;
+}
+#oper{
+    margin: 20px 0 0 30px;
+}
+#chuteNum{
+    border-radius: 10px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+}
+/* Sobre */
+section{
+    margin-top: 9.1em;
+    background: orange;
+}
+#sobre{
+    margin: auto;
+    width: 960px;
+}
+#sobre h2{
+    text-align: center;
+    font-size: 2em;
+    padding: 30px;
+}
+#sobre p{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.7;
+    cursor: text;
+}
+/* Rodape/Contato */
+#rodape-contato p{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+#sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sociais a{
+    margin: 50px;
+}
+.negrito{
+    font-weight: bold;
+}
+.espaçamento{
+    padding-bottom: 30px;
+}
+/* Botao subir para topo do site */
+#back-to-top {
+    background-color: #38322e;
+    border-radius: 50%;
+    box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+    color: #d9a000;
+    cursor: pointer;                                   
+    height: 40px;
+    position: fixed;
+    bottom: 14px;
+    right: 22px;
+    width: 40px;
+    z-index: 3;
+}
+#back-to-top::after {
+    content: '▲';
+    display: flex;
+    justify-content: center;
+    padding-left: 1px;
+    padding-top: 10px;
+  }
